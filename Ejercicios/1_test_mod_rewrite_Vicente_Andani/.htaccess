@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^prueba/(.*)/?$ clientes.php?id=$1
+#RewriteRule ^clientes/(\w+)/?$ clientes.php?id=$1 (esto es lo mismo)
+#$1 es lo que hay entre parentesis (en este caso \w+).
+#^es el inicio de la cadena
+#$ es el final de la cadena
+#\ caracter de escape.
