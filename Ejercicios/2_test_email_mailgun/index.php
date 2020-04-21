@@ -10,7 +10,7 @@
 
     	$config = array();
     	$config['api_key'] =$api_mailgun; //API Key
-    	$config['api_url'] =$api_mailgun_url; //API Base URL
+    	$config['api_url'] =$api_mailgun_url; //API Base URL`
 
     	$message = array();
     	$message['from'] = "admin@vicezon.com";
